@@ -5,3 +5,18 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for(let i in array){
+
+    let string
+    string = `Jogador ${i} : `
+    
+for(let j of array[i]){
+
+    string+= `${j}, `
+    
+}    
+console.log(string)
+}
+
+
